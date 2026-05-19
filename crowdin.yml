@@ -1,0 +1,11 @@
+"project_id": "chokapp"
+"api_token_env": "CROWDIN_PERSONAL_TOKEN"
+"base_path": "."
+
+"preserve_hierarchy": true
+
+files:
+  - source: "/guide/**/*.md"
+    translation: "/%locale%/guide/**/%original_file_name%"
+  - source: "/index.md"
+    translation: "/%locale%/index.md"
